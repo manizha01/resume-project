@@ -11,6 +11,10 @@
         type="text/css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+    <!-- jquery script-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
     <title>Manizha</title>
 </head>
 
@@ -20,7 +24,7 @@
             <a href="index.html" class="col-md-4 logo">
             </a>
             <div class="col-md-8">
-                <div class="row no-gutters bg-color-name-title">
+                <div class="bg-color-name-title row no-gutters">
                     <div class="col heading">
                         <h1 class="name"> Manizha Razban</h1>
                         <h2 class="title">Full Stack Developer</h2>
@@ -31,7 +35,7 @@
                         <ul id="nav" class="list-inline menucontainer">
                             <li class="col-6 col-sm-2 ui-menu-color-home list-inline-item menuitem">
                                 <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home"
-                                        aria-hidden="true"></i></i><span>Home</span></a>
+                                        aria-hidden="true"></i><span>Home</span></a>
                             </li>
                             <li class="col-6 col-sm-2 ui-menu-color-resume list-inline-item menuitem">
                                 <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap"
@@ -52,7 +56,6 @@
                             list-inline-item menuitem">
                                 <a href="GITHUP.html" class="hvr-sweep-to-bottom"> <i class="fa fa-github"
                                         aria-hidden="true"></i><span>GITHUP</span></a></li>
-
                             <li class="col-6 col-sm-2 ui-menu-color-download list-inline-item menuitem">
                                 <a href="assets/cv/manizha-cv.docx" target="blank" class="hvr-sweep-to-bottom"><i
                                         class="fa fa-download" aria-hidden="true"></i><span>Download</span></a>
@@ -91,14 +94,14 @@
                     </div>
                     <div class="value">
                         <p>
-                            Toronto, ON
+                            Toronto, ON, Canada
                         </p>
                     </div>
                 </div>
                 <div class="personal-info-item">
                     <div class="key">
                         <p class="uppercase">
-                            Phone:
+                            cell Phone:
                         </p>
                     </div>
                     <div class="value">
@@ -116,6 +119,7 @@
                     <div class="value">
                         <p>
                             Manizha.R*****n@gmail.com
+                            LinkedIn Manizha Razban
                         </p>
                     </div>
                 </div>
@@ -130,18 +134,22 @@
                     <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
                         <div class="row">
                             <div class="col-2">
-                                <i class="three-reason-icon fa fa-question" oria-hidden="true"></i>
+                                <i class="three-reason-icon fa fa-question" aria-hidden="true"></i>
                             </div>
                             <div class="col-10">
                                 <h4 class="three-reasons-heading uppercase">What do I do?</h4>
-                                <p>
+                                <p id="par-1">
                                     I'm a skilled full Stack Developer with a wealth of diverse
-                                    Life and technical experience that I bring to every project.
+                                    Life and technical experience that I bring to every project with
+                                    Strong interpersonal and teamwork skills.
+                                    with a Diploma in Computer Science
                                 </p>
+
+                                <!--This part is for jquery functions-->
+                                <button class="btn" id="button-card-1">Click</button>
                             </div>
                         </div>
                     </div>
-
                     <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
                         <div class="row">
                             <div class="col-2">
@@ -149,15 +157,16 @@
                             </div>
                             <div class="col-10">
                                 <h4 class="three-reasons-heading uppercase">How do I do it?</h4>
-                                <p>
+                                <p id="par-2">
                                     I follow form as well as function. I know that the aesthetics of effective design
                                     combined with application speed, security and reliability combine to create a great
                                     user experience.
+
                                 </p>
+                                <button class="btn" id="button-card-2">Click</button>
                             </div>
                         </div>
                     </div>
-
                     <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
                         <div class="row">
                             <div class="col-2">
@@ -165,18 +174,37 @@
                             </div>
                             <div class="col-10">
                                 <h4 class="three-reasons-heading uppercase">Why hire me?</h4>
-                                <p>
+                                <p id="par-3">
                                     I work quickly and effectively in getting things built and working across the stack.
                                     I'm an excellent communicator who thrives in bright and enthusiastic teams and I'm
                                     also a self starter when working solo.
                                 </p>
+                                <button class="btn" id="button-card-3">Click</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-tasks" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">SUMMARY OF QUALIFICATIONS</h4>
+                                <p id="par-4">
+                                    More than 4 years experience in deffent feild of IT
+                                    Excellent verbal and written communication skills with
+                                    ability to communicate in a professional manner to provide excellent customer/client
+                                    service
+                                    Problem Solving skills
+                                    Understanding of core computing protocols and operating systems
+                                </p>
+                                <button class="btn" id="button-card-4">Click</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
@@ -231,9 +259,8 @@
         </div>
 
     </footer>
-    <script>
-        let APIKey = '';
-    </script>
+    <!--link for jquery file-->
+    <script src="assets/js/jquery.js"> </script>
 </body>
 
 </html>
