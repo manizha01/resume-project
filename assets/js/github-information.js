@@ -20,7 +20,7 @@ function repoInformationHTML(repos) {
         return `<div class="clearfix repo-list">No repos!</div>`;
     }
 
-    var listItemsHTML = repos.map(function(repo) {
+    var listItemsHTML = repos.map(function (repo) {
         return `<li>
                     <a href="${repo.html_url}" target="_blank">${repo.name}</a>
                 </li>`;
@@ -55,7 +55,7 @@ function fetchGitHubInformation(event) {
         $.getJSON(`https://api.github.com/users/${username}`),
         $.getJSON(`https://api.github.com/users/${username}/repos`)
     ).then(
-        function(firstResponse, secondResponse) {
+        function (firstResponse, secondResponse) {
             var userData = firstResponse[0];
             var repoData = secondResponse[0];
             $("#gh-user-data").html(userInformationHTML(userData));
