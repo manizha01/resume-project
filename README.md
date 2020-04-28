@@ -4,7 +4,7 @@ This project which some how looks like the LMS example but I did not copy the co
 
 ## link for my webpage
 
-click here [click](https://pip.pypa.io/en/stable/) to see the page.
+click here [click](https://manizha01.github.io/resume-project/) to see the page.
 
 my resume project has 5 pages:
 
