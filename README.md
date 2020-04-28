@@ -1,6 +1,8 @@
+
 # resume-project
 
 This project which some how looks like the LMS example but I did not copy the code from there I just follow the videos and wrote to code.
+
 
 ## link for my webpage
 
@@ -21,4 +23,4 @@ page 5 (githup) I put gitub link and I can search github account this is the dif
 page 6 (download) this is not a page it is link to my resume when I click it opens my resume, I can download my resume from footer as well because I put a link there too.
 
 
-# I will continue editing my readme fill too
+# I will continue editing my readme file
