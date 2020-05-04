@@ -3,6 +3,8 @@
 
 This project which some how looks like the LMS example but I did not copy the code from there I just follow the videos and wrote to code.
 
+I used code validation for my pages
+
 
 ## link for my webpage
 
